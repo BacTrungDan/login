@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0b1a33e8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* main */
+
+.main{
+  width: 500px;
+  background: #000000de;
+  color: rgba(0, 0, 0, 0.603);
+  border-radius: 10px;
+  padding: 80px 0px;
+  box-shadow: 5px 5px 10px 5px rgba(20, 20, 179, 0.753); 
+}
+
+.login{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  color:white;
+}
+
+.main input{
+  padding: 12px 70px ;
+  background: rgba(255, 255, 255, 0.877);
+  border: none;
+  outline:none;  
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.main button{
+  padding: 12px 138px ;
+  background: #023c7e;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.main button:hover{
+ background: #0514e2 ;
+ color:rgb(255, 0, 0);
+}
+
+.main a {
+  color: red;
+  font-size: 15px;
+}
+
+/* .email{
+  position: relative;
+} */
+
+.errEmail{ 
+  display: none;
+  position: absolute;
+  color: red;
+  font-size: 13px;
+  left: 110px;
+  bottom: 40px;
+  top: 48px !important;
+
+}
+
+.eye{
+  position: relative;
+  left: 130px;
+  bottom: 60px;
+  font-size: 15px;
+}
+
+.errPassword{
+ display: none;
+ position: absolute;
+ color: red;
+ font-size: 13px;
+ left: 110px !important;
+ bottom: 40px;
+ top: 48px !important;
+}
+
+.errPhone{
+   display: none;
+ position: absolute;
+ color: red;
+ font-size: 13px;
+ left: 110px;
+ bottom: 40px;
+ top: 48px !important;
+}
